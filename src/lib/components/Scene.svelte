@@ -4,6 +4,7 @@
   import Shibuya from './models/shibuya.svelte'
   import Tree from './models/tree.svelte'
   import Human from './models/human.svelte'
+  import House from './models/house.svelte'
 </script>
 
 <T.PerspectiveCamera
@@ -46,3 +47,4 @@
 <Shibuya />
 <Tree position={[3, 0, 0]} />
 <Human position={[-3, 0, 0]} />
+<House position={[0, 0, 3]} />
