@@ -1,7 +1,6 @@
 <script lang="ts">
   import { T } from '@threlte/core'
   import { ContactShadows, Grid, OrbitControls } from '@threlte/extras'
-  import Shibuya from './models/shibuya.svelte'
 </script>
 
 <T.PerspectiveCamera
@@ -41,4 +40,3 @@
   opacity={0.5}
 />
 
-<Shibuya />
